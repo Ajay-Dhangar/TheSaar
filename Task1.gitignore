@@ -1,0 +1,44 @@
+import os
+
+print("\n\t\t\t....world of Automation....")
+while True:
+    print("""\n option 1:Greet please run date command.
+                option 2:Greet please run cal command.
+                option 3:Greet please check my ip.
+                option 4:Greet please open my Browser.
+                option 5:Greet please open manual for cal.
+                option 6:Greet please show my all directory.
+                option 7:Greet please show my curent directory.
+                option 8:Greet please run help command for me.
+                option 9:Greet exit.
+     """)
+     order = int(input("Give me order:..."))
+      if order==1:
+      date = os.system("date")
+      print(date)
+      elif order==2:
+          cal=os.system("cal")
+          print(cal)
+      elif order==3:
+          cal=os.system("ifconfig")
+          print(ifconfig)
+      elif order==4:
+          cal=os.system("firefox")
+          print(firefox)
+      elif order==5:
+          cal=os.system("man cal")
+          print(man cal)
+      elif order==6:
+          cal=os.system("dir")
+          print(dir)   
+      elif order==7:
+          cal=os.system("pwd")
+          print(pwd)
+      elif order==8:
+          cal=os.system("--help")
+          print(help)  
+      elif order==9:
+          cal=os.system("exit")
+          print(exit) 
+    else:
+        print("please enter a valid input: ")
