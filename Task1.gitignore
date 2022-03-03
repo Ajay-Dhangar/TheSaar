@@ -20,25 +20,25 @@ while True:
           cal=os.system("cal")
           print(cal)
       elif order==3:
-          cal=os.system("ifconfig")
+          ifconfig=os.system("ifconfig")
           print(ifconfig)
       elif order==4:
-          cal=os.system("firefox")
+          firefox=os.system("firefox")
           print(firefox)
       elif order==5:
-          cal=os.system("man cal")
+          man cal=os.system("man cal")
           print(man cal)
       elif order==6:
-          cal=os.system("dir")
+          dir=os.system("dir")
           print(dir)   
       elif order==7:
-          cal=os.system("pwd")
+          pwd=os.system("pwd")
           print(pwd)
       elif order==8:
-          cal=os.system("--help")
+          --help=os.system("--help")
           print(help)  
       elif order==9:
-          cal=os.system("exit")
+          exit=os.system("exit")
           print(exit) 
     else:
         print("please enter a valid input: ")
