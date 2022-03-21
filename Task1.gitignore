@@ -1,7 +1,7 @@
 import os
 print("\n....This is world of automation......")
 while True:
-    print("\n How can I help you please select your choice")
+    print("\n How can I help you please select your query")
     print("\n Here we provide some options: ")
     print("""\t option 91: Run date command.""")
     print("""\t option 52: Run time command.""")
