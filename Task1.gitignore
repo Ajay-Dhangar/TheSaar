@@ -1,44 +1,72 @@
 import os
-
-print("\n\t\t\t....world of Automation....")
+print("\n....This is world of automation......")
 while True:
-    print("""\n option 1:Greet please run date command.
-                option 2:Greet please run cal command.
-                option 3:Greet please check my ip.
-                option 4:Greet please open my Browser.
-                option 5:Greet please open manual for cal.
-                option 6:Greet please show my all directory.
-                option 7:Greet please show my curent directory.
-                option 8:Greet please run help command for me.
-                option 9:Greet exit.
-     """)
-     order = int(input("Give me order:..."))
-      if order==1:
-      date = os.system("date")
-      print(date)
-      elif order==2:
-          cal=os.system("cal")
-          print(cal)
-      elif order==3:
-          ifconfig=os.system("ifconfig")
-          print(ifconfig)
-      elif order==4:
-          firefox=os.system("firefox")
-          print(firefox)
-      elif order==5:
-          man cal=os.system("man cal")
-          print(man cal)
-      elif order==6:
-          dir=os.system("dir")
-          print(dir)   
-      elif order==7:
-          pwd=os.system("pwd")
-          print(pwd)
-      elif order==8:
-          --help=os.system("--help")
-          print(help)  
-      elif order==9:
-          exit=os.system("exit")
-          print(exit) 
-    else:
-        print("please enter a valid input: ")
+    print("\n How can I help you please select your choice")
+    print("\n Here we provide some options: ")
+    print("""\t option 91: Run date command.""")
+    print("""\t option 52: Run time command.""")
+    print("\t option 83: check my ip address")
+    print("\t option 54: check your files")
+    print("\t option 11: get host name ")
+    print("\t option 120: get mac address")
+    
+    
+
+    query = int(input("select your choice: "))
+    if query==91:
+        date=os.system("date")
+        print(date)
+
+    elif query==52:
+        time=os.system("time") 
+        print(time)
+
+    elif query==83:
+        ip=os.system("ipconfig")
+        print(ip)
+
+    elif query==54:
+        dir=os.system("dir")
+        print(dir)
+        
+    elif query==11:
+        hostname=os.system("hostname") 
+        print(hostname) 
+
+    elif query==120:
+        getmac=os.system("getmac")   
+        print(getmac)
+
+    
+    '''elif query==138:
+        arp=os.system("arp -a")
+        print(arp)
+
+    elif query==44:
+         assoc=os.system("assoc")    
+         print(assoc)
+
+    elif query==55:
+         ping=os.system("ping ")    
+         print(ping) 
+
+    elif query==45:
+         cipher=os.system("cipher")    
+         print(cipher)
+
+    elif query==78:
+         driverquery=os.system("driverquery")    
+         print(driverquery)
+
+    elif query==79:
+         netstat=os.system("netstat")    
+         print(netstat)     
+
+    elif query==100:
+        shutdown=os.system("shutdown")
+        print(shutdown)  '''    
+    
+else:
+        print("enter a valid input")
+
+
